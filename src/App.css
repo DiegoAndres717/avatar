@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.color-element {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+.silhouette {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+.color-element.dragging {
+  opacity: 0.5;
+}
+
+.silhouette {
+  max-width: 100%;
+  width: 20rem;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+img {
+  border-radius: 10px;
+}
